@@ -17,13 +17,20 @@ export const opportunities=[...baseOpportunities,...additionalOpportunities];
 export const financeById={...additionalFinanceById};
 
 export const coverage=[
-["Türkiye Scholarships","VERIFIED FRAMEWORK","2026 cycle closed; exact current English Management pairing not retained."],
-["Erasmus Mundus","VERIFIED FRAMEWORK","EUR 1,400/month framework verified; exact consortium must be selected."],
-["Stipendium Hungaricum","VERIFIED FRAMEWORK","2026 deadline verified; exact MOI programme pairing not retained."],
-["MEXT","VERIFIED FRAMEWORK","Benefits verified; exact management university pairing remains required."],
-["GKS","VERIFIED FRAMEWORK","2026 GKS-G framework verified; exact management + MOI route not retained."],
-["GOI-IES","CLOSED 2026","EUR 10,000 + one-year full fee waiver; exact HEI pairing not retained."],
-["Romania MFA","CLOSED 2026 / Romanian-only for Masters","Not suitable for an English-first strategy."]
+["Stipendium Hungaricum","EXACT PROGRAMMES ADDED","Corvinus MSc Management and University of Debrecen International Economy & Business; Pakistan is an eligible sending partner."],
+["MEXT Japan","EXACT PROGRAMME ADDED","Kobe KIMAP Management is English-taught; current 2027 admission window runs 24 Sep–16 Oct 2026."],
+["Türkiye Scholarships","EXACT PROGRAMME ADDED","Koç MSc International Management is tracked alongside the government scholarship framework."],
+["GKS Korea","VERIFIED FRAMEWORK","Graduate humanities/social-science funding is verified; exact English Management pairing varies by annual university list."],
+["MOE Taiwan Scholarship","EXACT PROGRAMME ADDED","Tamkang Business and Management is above 90% English; nationality/programme scholarship fit needs annual confirmation."],
+["Fulbright Pakistan","EXACT NATIONAL ROUTE","US graduate study funding is tracked for eligible non-MBA management/economics-related study; GRE/TOEFL rules apply."],
+["Knight-Hennessy + Stanford MS&E","EXACT PROGRAMME ADDED","Funding covers tuition, stipend, travel and relocation; MS&E quantitative prerequisites are a major gate."],
+["Commonwealth UK","VERIFIED FRAMEWORK","Pakistan is an eligible Commonwealth country; exact participating management programme depends on annual nominations."],
+["GOI-IES Ireland","EXACT PROGRAMME ADDED","Trinity MSc International Management is tracked with the one-year EUR 10,000 scholarship and fee waiver."],
+["France Excellence Eiffel","EXACT PROGRAMME ADDED","Economics/management eligible; HEC Paris MIM is tracked separately because Eiffel does not pay its private tuition."],
+["Flanders Master Mind","EXACT PROGRAMME ADDED","KU Leuven Master of Business Economics tracked; IELTS 7/TOEFL is a material language gate."],
+["Erasmus Mundus","VERIFIED FRAMEWORK","EUR 1,400/month up to 24 months; exact Management/Economics consortium must be selected from annual catalogue."],
+["Australia Awards Pakistan","EXCLUDED FOR FRESH GRAD","Pakistan route requires five years relevant work experience for the 2027 intake."],
+["Africa / additional regional exact matches","NOT PADDED","No additional Pakistan-eligible, English-first Management route was promoted without sufficient current programme-plus-funding evidence."]
 ];
 
 export const exclusions=[
