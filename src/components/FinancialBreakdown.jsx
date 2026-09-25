@@ -5,8 +5,8 @@ function Pill({status}){const tone=status==="known"||status==="covered"||status=
 
 function Table({title,icon:Icon,rows,empty}){return <section className="panel overflow-hidden"><div className="flex items-center gap-2 border-b border-slate-100 px-4 py-3 dark:border-slate-800"><Icon size={15}/><h3 className="text-sm font-black">{title}</h3></div>{rows?.length?<><div className="finance-table-row bg-slate-50 text-[10px] font-black uppercase tracking-[.12em] text-slate-400 dark:bg-slate-950"><span>Category</span><span>Host amount</span><span>PKR</span><span>Status</span></div>{rows.map((x,i)=><div className="finance-table-row" key={x.label+i}><span className="min-w-0"><b className="block truncate">{x.label}</b><span className="text-[10px] text-slate-400">{x.frequency||"direct"}</span></span><span>{x.total===null?"UNKNOWN":formatMoney(x.total,x.currency)}</span><span>{x.pkr===null?"UNKNOWN":"PKR "+Math.round(x.pkr).toLocaleString("en-PK")}</span><span><Pill status={x.status}/></span></div>)}</>:<div className="p-5 text-xs text-slate-400">{empty||"No verified items."}</div>}</section>}
 
-export default function FinancialBreakdown({opportunity,months:customMonths,compact=false}){
-  const a=analyzeFinance(opportunity,customMonths);
+export default function FinancialBreakdown({opportunity,months:customMonths,monthlyLivingOverride,additionalOneTimeCost=0,compact=false}){
+  const a=analyzeFinance(opportunity,customMonths,monthlyLivingOverride,additionalOneTimeCost);
   const net=a.netPKR===null?null:a.netPKR;
   const netLabel=net===null?"UNKNOWN":net>0?"Personal contribution":"Potential cash surplus";
   return <div className={"space-y-5 "+(compact?"":"mt-5")}>
