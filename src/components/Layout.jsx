@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {NavLink,Outlet,useLocation} from "react-router-dom";
-import {FiAlertTriangle,FiBarChart2,FiBookOpen,FiBriefcase,FiCalendar,FiCheckCircle,FiDollarSign,FiFileText,FiGitCompare,FiGrid,FiLayers,FiMap,FiMenu,FiSearch,FiShield,FiSliders,FiTarget,FiX,FiSun,FiMoon} from "react-icons/fi";
+import {FiAlertTriangle,FiBarChart2,FiBookOpen,FiBriefcase,FiCalendar,FiCheckCircle,FiDollarSign,FiFileText,FiGitBranch,FiGrid,FiLayers,FiMap,FiMenu,FiSearch,FiShield,FiSliders,FiTarget,FiX,FiSun,FiMoon} from "react-icons/fi";
 const groups=[
 ["Research",[[ "/","Dashboard",FiGrid],["/scholarships","Scholarship Explorer",FiSearch],["/programs","Master's Programs",FiBookOpen],["/top-10","Top 10 Opportunities",FiTarget],["/comparison","Funding Comparison",FiGitCompare]]],
 ["Funding",[[ "/funding/need-based","Need-Based Funding",FiShield],["/funding/fully-funded","Fully Funded",FiCheckCircle],["/funding/tuition-free","Tuition-Free Options",FiLayers],["/funding/low-cost","Low-Cost Backups",FiDollarSign],["/deadlines","Deadline Calendar",FiCalendar]]],
