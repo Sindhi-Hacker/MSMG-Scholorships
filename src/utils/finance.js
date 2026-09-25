@@ -31,10 +31,11 @@ export const pkrAmount=(amount,currency)=>{
   return amount===null||amount===undefined||!rate?null:amount*rate;
 };
 
-export function analyzeFinance(o,monthsOverride){
+export function analyzeFinance(o,monthsOverride,monthlyLivingOverride,additionalOneTimeCost=0){
   const model=getFinancialModel(o);
   const months=monthsOverride||model.periodMonths||12;
-  const costs=model.costs||[];
+  let costs=(model.costs||[]).map(x=>monthlyLivingOverride!==undefined&&monthlyLivingOverride!==null&&x.frequency==="monthly"&&/living/i.test(x.label)?{...x,amount:monthlyLivingOverride,status:"estimate"}:x);
+  if(additionalOneTimeCost>0) costs=costs.concat({label:"Additional safety reserve",amount:Number(additionalOneTimeCost),currency:model.currency,frequency:"one-time",payer:"student",status:"estimate"});
   const cash=model.cashFunding||[];
   const direct=model.directFunding||[];
   const studentCosts=costs.filter(x=>x.payer==="student"&&x.status!=="conditional");
