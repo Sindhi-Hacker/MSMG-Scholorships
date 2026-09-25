@@ -38,3 +38,9 @@ Edit `src/data/opportunities.js`. Keep identity, programme, country, funding, ac
 
 ## Important
 Re-open the official programme and scholarship pages before submitting because deadlines, quotas, fees, language rules and immigration requirements can change between cycles.
+
+## Research and financial model refresh — 25 Sep 2026
+
+The research dataset has been expanded beyond the initial seven-record proof of concept. It now includes verified exact-programme routes and clearly labelled framework-only routes across Asia, Europe, North America and international mobility schemes. The app distinguishes student-paid costs, scholarship cash received, direct scholarship benefits, known values, estimates and unknown values.
+
+The financial analysis is intentionally not described as “revenue”: scholarship cash is funding received by the student, not employment income. See `research-report.md` for the evidence register and `src/components/FinancialBreakdown.jsx` for the UI model.
