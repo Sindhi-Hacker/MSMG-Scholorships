@@ -1,10 +1,8 @@
 import {FiCheckCircle,FiDollarSign,FiFileText,FiGlobe,FiBookOpen} from "react-icons/fi";
-import {FX} from "../data/opportunities";
 
 function Row({label,value,kind}){return <div className="rounded-2xl border border-slate-200 p-4 dark:border-slate-800"><div className="flex items-start gap-3"><div className="mt-0.5 text-slate-400"><FiCheckCircle/></div><div className="min-w-0 flex-1"><div className="text-[10px] font-black uppercase tracking-[.14em] text-slate-400">{label}</div><div className="mt-1 text-sm font-semibold leading-6">{value}</div>{kind&&<div className="mt-1 text-[11px] text-slate-400">{kind}</div>}</div></div></div>}
 
 export default function AdmissionRequirements({opportunity:o}){
- const fx=FX.EUR;
  const visa=o.country==="Italy"?{title:"Visa / proof of funds",value:"EUR 10,179.85 per academic year",kind:"Current 2026/27 Italian consular reference. This is immigration financial capacity, not tuition paid to the university."}:null;
  return <section className="panel p-5 lg:p-6">
   <div className="flex items-center gap-2"><FiBookOpen/><div><div className="eyebrow">Admission requirements</div><h2 className="mt-1 text-xl font-black">What you actually need before applying</h2></div></div>
