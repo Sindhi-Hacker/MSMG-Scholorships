@@ -7,7 +7,7 @@
 
 ## 1. Global research result
 
-The dataset now contains **20 tracked opportunities/frameworks** across Asia, Europe, North America, and international multi-country routes.
+The dataset now contains **21 tracked opportunities/frameworks** across Asia, Europe, North America, and international multi-country routes.
 
 The current evidence set includes:
 - exact or close programme-level routes in China, Brunei, Italy, Hungary, Türkiye, Japan, South Korea, Taiwan, Malaysia, Romania, Ireland, France, Belgium and the United States;
@@ -41,6 +41,7 @@ The research deliberately does **not** pad Africa or Oceania with weak/unverifie
 | 18 | HEC Paris Master in Management + Eiffel | France / Europe | EUR 1,200/month plus transport/insurance/cultural support | Exact programme | Yes | HEC requirements separate | 2026 closed; high remaining tuition |
 | 19 | KU Leuven Master of Business Economics + Master Mind | Belgium / Europe | Tuition waiver + EUR 10,225 grant | Exact programme | Yes | IELTS 7 / TOEFL is a major gate | 2026/27 closed; 2027/28 under review |
 | 20 | Erasmus Mundus Joint Master — Management/Economics/Business consortiums | Europe / international | EUR 1,400/month up to 24 months + travel/visa/installation + fee protections | Framework | Yes, consortium-specific | Consortium-specific | Next annual calls to verify |
+| 21 | University of Padova Management for Sustainable Firms | Italy / Europe | Low-cost + regional support | Exact programme | Yes / no work-experience gate published | B2; fully-English degree can satisfy the language route; MOI evidence explicitly supported | 2027/28 admissions opened 15 Sep 2026 for most programmes |
 
 ## 3. Funding facts that matter
 
@@ -82,6 +83,19 @@ The official MEXT framework gives a Master's/professional-degree monthly allowan
 Official:
 - https://kimap.b.kobe-u.ac.jp/admission_and_finance
 - https://studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/
+
+### University of Padova — Management for Sustainable Firms
+
+Padova's Management for Sustainable Firms is an English-taught 2-year / 120 ECTS master's. The programme guide lists a bachelor's in Management and Administration or a related field with strong preparation in Management plus Accounting/Finance, Economics and Quantitative areas; English B2 is required, while GMAT/GRE and C-level English are preferential. Published programme tuition is up to **EUR 2,900/year**. citeturn355121search9turn988386search6
+
+Padova's general international admissions process also has a non-refundable **EUR 60 application fee**, and its English-language admission guidance accepts a qualification awarded for a programme taught entirely in English when the language of instruction is explicitly documented. citeturn785641search10turn785641search2
+
+**Financial proof must be modelled separately from academic admission.** Current Italian consular guidance for 2026/27 can require proof of adequate subsistence funds; one current embassy checklist states **EUR 10,179.85/year** as the reference amount and explains that financial stability must be evidenced, not simply a one-day cash balance. Requirements can be consulate-specific and can change, so the student should use the Italian diplomatic mission responsible for Pakistan for the final visa checklist. citeturn548964search17turn548964search1
+
+Official:
+- https://www.unipd.it/en/management-sustainable-firms
+- https://www.unipd.it/en/ammissione-studenti-internazionali
+- https://www.unipd.it/en/requisito-inglese-ammissione
 
 ### Erasmus Mundus
 The official Erasmus+ framework states a scholarship of **EUR 1,400/month** for the scholarship duration, up to **24 months**. Scholarship holders are protected from application fees and tuition/mandatory participation charges on the scholarship-bearing route, with travel/visa/installation/subsistence support defined at framework level.
