@@ -1,0 +1,28 @@
+import {FiArrowDownLeft,FiArrowUpRight,FiBriefcase,FiCreditCard,FiGift,FiInfo} from "react-icons/fi";
+import {analyzeFinance,formatMoney} from "../utils/finance";
+
+function Pill({status}){const tone=status==="known"||status==="covered"||status==="waived"?"finance-pill-known":status==="estimate"?"finance-pill-estimate":"finance-pill-unknown";return <span className={"finance-pill "+tone}>{status}</span>}
+
+function Table({title,icon:Icon,rows,empty}){return <section className="panel overflow-hidden"><div className="flex items-center gap-2 border-b border-slate-100 px-4 py-3 dark:border-slate-800"><Icon size={15}/><h3 className="text-sm font-black">{title}</h3></div>{rows?.length?<><div className="finance-table-row bg-slate-50 text-[10px] font-black uppercase tracking-[.12em] text-slate-400 dark:bg-slate-950"><span>Category</span><span>Host amount</span><span>PKR</span><span>Status</span></div>{rows.map((x,i)=><div className="finance-table-row" key={x.label+i}><span className="min-w-0"><b className="block truncate">{x.label}</b><span className="text-[10px] text-slate-400">{x.frequency||"direct"}</span></span><span>{x.total===null?"UNKNOWN":formatMoney(x.total,x.currency)}</span><span>{x.pkr===null?"UNKNOWN":"PKR "+Math.round(x.pkr).toLocaleString("en-PK")}</span><span><Pill status={x.status}/></span></div>)}</>:<div className="p-5 text-xs text-slate-400">{empty||"No verified items."}</div>}</section>}
+
+export default function FinancialBreakdown({opportunity,months:customMonths,compact=false}){
+  const a=analyzeFinance(opportunity,customMonths);
+  const net=a.netPKR===null?null:a.netPKR;
+  const netLabel=net===null?"UNKNOWN":net>0?"Personal contribution":"Potential cash surplus";
+  return <div className={"space-y-5 "+(compact?"":"mt-5")}>
+    <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="finance-kpi"><div className="finance-kpi-label">You pay</div><div className="mt-2 text-xl font-black">PKR {Math.round(a.costPKR).toLocaleString("en-PK")}</div><div className="mt-1 text-[11px] text-slate-400">{a.unknownCost?"plus unknown cost items":"known student costs"} · {a.months} months</div></div>
+      <div className="finance-kpi"><div className="finance-kpi-label">Cash received</div><div className="mt-2 text-xl font-black">PKR {Math.round(a.cashPKR).toLocaleString("en-PK")}</div><div className="mt-1 text-[11px] text-slate-400">{a.unknownCash?"plus unknown cash benefits":"published cash benefits"}</div></div>
+      <div className="finance-kpi"><div className="finance-kpi-label">Direct benefits</div><div className="mt-2 text-xl font-black">PKR {Math.round(a.directPKR).toLocaleString("en-PK")}</div><div className="mt-1 text-[11px] text-slate-400">Only benefits with published values are counted</div></div>
+      <div className="finance-kpi"><div className="finance-kpi-label">{netLabel}</div><div className="mt-2 text-xl font-black">{net===null?"UNKNOWN":(net>=0?"PKR ":"PKR ")+Math.abs(Math.round(net)).toLocaleString("en-PK")}</div><div className="mt-1 text-[11px] text-slate-400">{a.coveragePct===null?"Cannot calculate coverage":"Cash funding covers "+a.coveragePct+"% of known student cost"}</div></div>
+    </section>
+
+    <div className="grid gap-4 xl:grid-cols-2">
+      <Table title="Your money out" icon={FiArrowUpRight} rows={a.knownStudent} empty="No quantified student-paid lines are available; check the notes below."/>
+      <Table title="Scholarship cash in" icon={FiArrowDownLeft} rows={a.knownCash} empty="No quantified cash stipend was safely published."/>
+      <Table title="Scholarship pays directly" icon={FiGift} rows={a.knownDirect} empty="No separately quantified direct benefits."/>
+      <section className="panel p-5"><div className="flex items-center gap-2"><FiCreditCard/><h3 className="text-sm font-black">Cash planning</h3></div><div className="mt-4 grid grid-cols-2 gap-3"><div className="stat-box"><span>Upfront known</span><strong>PKR {Math.round(a.upfrontPKR).toLocaleString("en-PK")}</strong></div><div className="stat-box"><span>Monthly net</span><strong>{net===null?"UNKNOWN":"PKR "+Math.round(net/a.months).toLocaleString("en-PK")}</strong></div><div className="stat-box"><span>Period</span><strong>{a.months} months</strong></div><div className="stat-box"><span>FX</span><strong>25 Sep 2026 estimate</strong></div></div>{a.conditionalCosts.length>0&&<p className="mt-4 flex gap-2 text-[11px] leading-5 text-slate-400"><FiInfo/>Conditional costs are shown in the detailed data but excluded from the core total.</p>}</section>
+    </div>
+    <section className="panel p-5"><div className="flex items-center gap-2"><FiBriefcase/><h3 className="text-sm font-black">How to read the result</h3></div><p className="mt-3 text-xs leading-6 text-slate-500">“Cash received” is scholarship funding paid to or for the student, not employment revenue. “Direct benefits” are tuition, housing, insurance, travel or similar items paid or waived separately. Negative net cash position means the modeled cash benefit exceeds known student-paid costs; it is not guaranteed savings or income.</p>{a.model.notes?.map((x,i)=><p className="mt-2 text-xs leading-5 text-slate-400" key={i}>{x}</p>)}</section>
+  </div>
+}
