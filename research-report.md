@@ -1,294 +1,374 @@
-# MSMG International Master's Scholarship Research Report
+# MSMG Scholarship Intelligence — Deep Global Research Register
 
-Verified on: 2026-09-25
+**Research refresh:** 25 September 2026  
+**Applicant profile:** Pakistani fresh graduate, BS Management Science / closely related business degree, no full-time professional experience, no prior Master's, English-first, strong preference for IELTS alternatives / official Medium of Instruction evidence.
 
-Candidate profile: Pakistani international student; fresh graduate; BS Management Science or closely related business/management degree; no full-time professional work experience; no previous master's; English-first; strong preference for IELTS not being mandatory and official English-medium/MOI evidence being accepted.
+> This is a primary-source research register, not a claim of literal internet exhaustiveness. Opportunities are promoted only where the programme, funding framework, and material eligibility facts were sufficiently verifiable. “Framework” means the scholarship is verified but the exact annual programme pairing still has to be selected from that year's official catalogue.
 
-## Research scope and limitation
+## 1. Global research result
 
-A broad official-source sweep was performed across Europe, Asia and other major destinations and funding frameworks named in the research brief. Literal exhaustive coverage of the whole public internet cannot be proven, so this report does not claim exhaustive internet coverage.
+The dataset now contains **20 tracked opportunities/frameworks** across Asia, Europe, North America, and international multi-country routes.
 
-The final shortlist is deliberately smaller than 15–30 because many major 2026 government scholarship cycles are already closed, and some schemes could not be paired with an exact Management Science-compatible master's plus a sufficiently verified current English/MOI route.
+The current evidence set includes:
+- exact or close programme-level routes in China, Brunei, Italy, Hungary, Türkiye, Japan, South Korea, Taiwan, Malaysia, Romania, Ireland, France, Belgium and the United States;
+- Pakistan-specific national routes such as Fulbright Pakistan and Commonwealth eligibility;
+- global scholarship frameworks such as Erasmus Mundus;
+- explicit exclusion evidence for Australia Awards Pakistan because the 2027 intake requires five years of relevant work experience.
 
-## Scoring framework
+The research deliberately does **not** pad Africa or Oceania with weak/unverified entries simply to make the list look larger.
 
-| Criterion | Weight |
+## 2. Opportunity register
+
+| # | Opportunity | Country/Region | Funding | Exactness | Fresh-grad / no-experience | English/MOI | Current 2026 state |
+|---|---|---|---|---|---|---|---|
+| 1 | UIBE MIBCE + Chinese Government Scholarship — Silk Road | China / Asia | Full funding framework | Exact programme | Yes / no published mandatory experience in cited route | UIBE English-medium route; scholarship call must be rechecked | Next cycle not announced |
+| 2 | UBD Master by Research — Management + Brunei Government Scholarship | Brunei / Asia | Tuition + living categories + accommodation/food/travel support | Exact programme | Yes, if Upper-Second equivalent | Current MOI route not explicit in retrieved evidence | 2026 closed |
+| 3 | University of Bologna International Management + ER.GO | Italy / Europe | Need-based grant | Exact programme | Yes | B2 required; OOPT is an official non-IELTS route | 2026 closed |
+| 4 | UIBE MIBCE + CGS High Level Postgraduate | China / Asia | Full funding | Exact programme | Yes | UIBE English-medium route; scholarship call must be rechecked | Next cycle not announced |
+| 5 | University of Malaya Master of Management + MIS | Malaysia / Asia | Tuition support + RM 1,500/month | Exact programme | Yes | MIS accepts official English-medium declaration; UM programme rule remains separate | 2026 closed |
+| 6 | UTM MBA + MIS | Malaysia / Asia | Tuition support + RM 1,500/month | Exact programme | Conditional | MIS MOI route; UTM programme rule remains separate | 2026 closed |
+| 7 | Bucharest Faculty of Administration and Business — Small and Medium Businesses | Romania / Europe | Low-cost / self-funded | Exact programme | Yes | English-taught; exact proof route still to confirm | Programme intake date not safely recovered |
+| 8 | Corvinus MSc Management + Stipendium Hungaricum | Hungary / Europe | Tuition + stipend + housing/dorm + insurance | Exact programme | Yes | Programme-specific English check | 2026 closed |
+| 9 | University of Debrecen International Economy and Business MSc + SH | Hungary / Europe | Tuition + stipend + housing/dorm + insurance | Exact programme | Yes | English assessed in admission interview; exam certificate not strictly required on cited page | 2026 closed |
+| 10 | Koç MSc International Management + Türkiye Scholarships | Türkiye / Asia-Europe | Tuition + stipend + accommodation + health + airfare + Turkish | Exact programme | Recent graduates welcome; no experience threshold in cited programme listing | Programme listing does not require language document unless interview triggers TOEFL | 2026 closed |
+| 11 | Kobe University KIMAP Management + MEXT | Japan / Asia | Tuition + fees + stipend + airfare under MEXT | Exact programme | Yes | English-taught bachelor's degree accepted as English evidence | **Admission window Sep 24–Oct 16 2026** |
+| 12 | GKS Graduate — Management/Social Sciences framework | South Korea / Asia | Full government scholarship framework | Framework | Yes, subject to annual criteria | University-specific | 2026 cycle closed |
+| 13 | Tamkang Business & Management + MOE Taiwan Scholarship | Taiwan / Asia | Up to NT$40k/semester + NT$20k/month | Exact programme | Yes | Programme >90% English; programme/scholarship language rules separate | Annual cycle; 2026 closed |
+| 14 | Fulbright Pakistan Master's — eligible Management/Economics-related fields | United States / North America | Full graduate funding | National route / university placement | Recent graduates encouraged for non-MBA routes | GRE required; TOEFL after selection | 2026 closed |
+| 15 | Stanford MS&E + Knight-Hennessy | United States / North America | Tuition + stipend + travel + relocation | Exact degree + university scholarship | Yes | Programme-specific | Annual cycle; 2026 route closed |
+| 16 | Commonwealth Master's / Shared Master's | United Kingdom / Europe | Full approved tuition + airfare + visa + living allowance + study travel | Framework | Yes if route criteria met | Programme-level rules apply | 2026 cycle closed |
+| 17 | Trinity MSc International Management + GOI-IES | Ireland / Europe | EUR 10,000 + one-year full host fee waiver | Exact programme | Yes | GOI-IES itself no separate language certificate; host programme rule applies | 2026 closed |
+| 18 | HEC Paris Master in Management + Eiffel | France / Europe | EUR 1,200/month plus transport/insurance/cultural support | Exact programme | Yes | HEC requirements separate | 2026 closed; high remaining tuition |
+| 19 | KU Leuven Master of Business Economics + Master Mind | Belgium / Europe | Tuition waiver + EUR 10,225 grant | Exact programme | Yes | IELTS 7 / TOEFL is a major gate | 2026/27 closed; 2027/28 under review |
+| 20 | Erasmus Mundus Joint Master — Management/Economics/Business consortiums | Europe / international | EUR 1,400/month up to 24 months + travel/visa/installation + fee protections | Framework | Yes, consortium-specific | Consortium-specific | Next annual calls to verify |
+
+## 3. Funding facts that matter
+
+### Stipendium Hungaricum
+Official scholarship information states:
+- tuition-free education;
+- master's stipend **HUF 43,700/month**;
+- accommodation support **HUF 40,000/month** or dormitory placement;
+- medical insurance plus supplementary coverage;
+- explicit warning that these are contributions and students may still need their own resources.
+
+Pakistan is listed as an eligible sending partner in the official partner system.
+
+Official:
+- https://stipendiumhungaricum.hu/about/
+- https://stipendiumhungaricum.hu/partners/
+
+### Türkiye Scholarships
+Official full-time scholarship information states for Master's:
+- **TRY 9,500/month**;
+- tuition fee;
+- accommodation;
+- health insurance;
+- one-year Turkish language course;
+- once-off flight ticket.
+
+Official:
+- https://turkiyeburslari.gov.tr/fulltimeprograms
+
+### MEXT / Kobe KIMAP
+Kobe's KIMAP Management route is English-taught and accepts an English-taught bachelor's degree as evidence of English ability. The cited 2027 admissions window is **24 September–16 October 2026**.
+
+Normal programme costs cited by Kobe are:
+- tuition **JPY 535,800/year**;
+- entrance fee **JPY 282,000**.
+
+The official MEXT framework gives a Master's/professional-degree monthly allowance of **JPY 144,000**, with tuition exemption and generally round-trip airfare subject to route conditions.
+
+Official:
+- https://kimap.b.kobe-u.ac.jp/admission_and_finance
+- https://studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/
+
+### Erasmus Mundus
+The official Erasmus+ framework states a scholarship of **EUR 1,400/month** for the scholarship duration, up to **24 months**. Scholarship holders are protected from application fees and tuition/mandatory participation charges on the scholarship-bearing route, with travel/visa/installation/subsistence support defined at framework level.
+
+Official:
+- https://erasmus-plus.ec.europa.eu/opportunities/organisations/cooperation-among-organisations-and-institutions/erasmus-mundus-joint-masters
+
+### Taiwan MOE Scholarship
+Official Taiwan scholarship information states for Master's:
+- maximum **NT$20,000/month** stipend;
+- up to **NT$40,000/semester** toward tuition and miscellaneous fees;
+- Master's support can run up to **2 years**;
+- airfare is paid by the recipient under the cited scholarship document.
+
+Official:
+- https://www.studyintaiwan.org/
+- https://old.studyintaiwan.org/university/program/2858
+
+### Fulbright Pakistan
+USEFP states that the graduate programme covers tuition, textbooks, airfare, living stipend and health insurance. Recent graduates are encouraged except for MBA and certain public-policy routes with separate work-experience requirements. The Pakistan route uses the **GRE General** and selected candidates take **TOEFL**.
+
+Official:
+- https://www.usefp.org/scholarships/fulbright-degree.cfm
+
+### Commonwealth
+The current Commonwealth Master's framework includes Pakistan among eligible Commonwealth countries. The CSC financial framework covers approved tuition and includes airfare, visa costs, living allowance and study travel. The current allowance cited is **GBP 1,712/month**, or **GBP 2,000/month in London**.
+
+Official:
+- https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/
+
+### GOI-IES / Trinity
+The 2026 GOI-IES call provides:
+- **EUR 10,000 stipend for one year**;
+- full host HEI fee waiver for the award year.
+
+Trinity's cited 2027/28 non-EU International Management tuition is **EUR 25,150** before the scholarship fee waiver. The 2026/27 student charges figure cited separately is approximately **EUR 314**.
+
+Official:
+- https://hea.ie/policy/internationalisation/goi-ies/
+- https://www.tcd.ie/business/programmes/masters-programmes/msc-in-international-management/
+
+### Eiffel / HEC Paris
+Eiffel's Master's support:
+- **EUR 1,200/month** from January 2026;
+- transport/insurance/cultural support.
+
+At HEC Paris, the MIM 2027/28 tuition is approximately:
+- **EUR 58,900 total** over two years;
+- **EUR 180** application fee;
+- **EUR 2,000** international student charge;
+- cited living planning level around **EUR 1,500/month**.
+
+Eiffel does not generally pay HEC's private tuition, so this is **not a zero-cost route**.
+
+Official:
+- https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program
+- https://www.hec.edu/en/master-s-programs/master-management/fees-and-financing
+
+### Master Mind / KU Leuven
+Master Mind provides:
+- **EUR 10,225 grant/year**;
+- tuition fee waiver;
+- official payment rules make second-year funding conditional on academic progress, including a cited **54 ECTS** threshold.
+
+KU Leuven's Master of Business Economics has materially stronger quantitative requirements and generally requires **IELTS 7 / TOEFL**, making it weak for an MOI-only strategy.
+
+Official:
+- https://www.studyinflanders.be/scholarships/master-mind-scholarships
+- https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_51017073
+
+## 4. Professional cost model now used in the app
+
+The dashboard no longer treats “fully funded” as “zero expense”.
+
+Each opportunity is modelled through four separate financial buckets:
+
+### A. Your money out
+Potential student-paid items:
+- tuition not covered;
+- living expenses;
+- application fees;
+- visa/residence costs;
+- setup/arrival;
+- travel when recipient-paid;
+- insurance not covered;
+- personal safety reserve;
+- uncovered tuition above scholarship caps.
+
+### B. Cash funding received
+Examples:
+- monthly stipend;
+- annual grant;
+- one-year scholarship payment;
+- accommodation contribution when it is a cash contribution.
+
+This is labelled **cash funding**, not revenue. A scholarship is not employment income.
+
+### C. Scholarship pays directly
+Examples:
+- tuition waiver/payment;
+- dormitory/accommodation;
+- health insurance;
+- airfare;
+- language preparation;
+- other direct benefits.
+
+A direct benefit is not counted as cash in hand.
+
+### D. Net personal cash position
+The model calculates:
+
+**Known student-paid costs − known scholarship cash received = known net personal cash position**
+
+It also shows:
+- upfront known cash requirement;
+- monthly net burn;
+- cash-funding coverage percentage;
+- direct scholarship benefit value where a published amount exists;
+- unknown items that prevent a safe final total.
+
+Unknown values are **never converted to zero**.
+
+## 5. Current PKR planning FX
+
+Planning snapshot dated **25 September 2026**:
+
+| Currency | Approx. PKR |
 |---|---:|
-| Need-based / full-funding potential | 25 |
-| Academic fit | 20 |
-| Fresh graduate / no work experience | 15 |
-| IELTS alternative / MOI | 15 |
-| Zero / low tuition | 8 |
-| Low remaining contribution | 7 |
-| Open / upcoming status | 4 |
-| Career relevance | 3 |
-| Application complexity | 2 |
-| Visa / proof-of-funds friendliness | 1 |
+| EUR | 315.08 |
+| USD | 277.08 |
+| GBP | 366.14 |
+| CNY | 41.28 |
+| MYR | 67.82 |
+| JPY | 1.7434 |
+| HUF | 0.8648 |
+| TRY | 5.66 |
+| TWD | 8.70 |
+| KRW | 0.197 |
+| IDR | 0.01547 |
+| NZD | 157.14 |
+
+These are **planning estimates**, not guaranteed bank/remittance settlement rates.
+
+## 6. Worked financial interpretation
+
+### MEXT / Kobe KIMAP
+Published:
+- cash scholarship: JPY 144,000/month;
+- tuition: JPY 535,800/year normally, exempted under MEXT;
+- entrance fee: JPY 282,000 normally, exempted under MEXT;
+- airfare generally supported.
+
+Illustrative living estimate:
+- JPY 120,000/month.
+
+That means the model can show a **known monthly cash difference of roughly JPY 24,000 before setup/other costs**, while separately showing tuition and airfare as direct scholarship benefits.
 
-Scores are prioritization aids, not predictions of admission or scholarship selection.
+This is much more informative than simply writing “fully funded”.
 
-## Master comparison
+### HEC Paris + Eiffel
+First-year planning example:
+- HEC tuition: EUR 29,450;
+- living estimate: EUR 18,000;
+- application: EUR 180;
+- international charge: EUR 2,000;
+- setup/visa reserve: EUR 1,000;
+- Eiffel cash: EUR 14,400.
 
-| Rank | Exact master's | Scholarship / route | Country | Funding | Fresh grad | Work exp | IELTS | MOI | Status | Fit | Score |
-|---|---|---|---|---|---|---|---|---|---|---|---:|
-| 1 | UIBE Master of International Business and Cross-border E-Commerce | CSC Silk Road | China | FULLY FUNDED | YES | No mandatory threshold stated | CONDITIONAL | CONDITIONAL | APPLICATION WINDOW NOT YET ANNOUNCED | EXACT/CLOSE | 92 |
-| 2 | UBD Master by Research — Management | Brunei Government route | Brunei | FULLY FUNDED | YES | Not stated mandatory | UNKNOWN | UNKNOWN | CLOSED; 2026-02-15 | EXACT if Upper-Second equivalent | 90 |
-| 3 | University of Bologna International Management | ER.GO | Italy | NEED-BASED | YES | NO | NO; OOPT route | UNKNOWN | CLOSED | CONDITIONAL | 86 |
-| 4 | UIBE MIBCE | CSC High Level Postgraduate Program | China | FULLY FUNDED | YES | No mandatory threshold stated | CONDITIONAL | CONDITIONAL | APPLICATION WINDOW NOT YET ANNOUNCED | EXACT/CLOSE | 84 |
-| 5 | University of Malaya Master of Management | Malaysia International Scholarship | Malaysia | TUITION + STIPEND | YES | No mandatory threshold stated | YES / institutional rule | CONDITIONAL | CLOSED | EXACT/CLOSE | 74 |
-| 6 | UTM MBA | Malaysia International Scholarship | Malaysia | TUITION + STIPEND | CONDITIONAL | Lower-CGPA bands need experience | YES | CONDITIONAL | CLOSED | CONDITIONAL | 70 |
-| 7 | FAB Bucharest Administrarea afacerilor mici si mijlocii | Self-funded | Romania | LOW-COST BACKUP | YES | Not stated | UNKNOWN | UNKNOWN | NOT APPLICABLE | CLOSE | 62 |
+Illustrative known net personal amount:
+**EUR 36,230**, before any additional personal spending or changes in fees.
 
-## A. BEST NEED-BASED
+This makes clear that a prestigious scholarship can still leave a large personal contribution.
 
-### University of Bologna — International Management + ER.GO
+### Erasmus Mundus
+Illustrative planning:
+- cash scholarship: EUR 1,400/month;
+- estimated living: EUR 1,000/month;
+- tuition/mandatory participation fees for scholarship holders: protected under the framework;
+- travel/visa/installation: framework-supported.
 
-WHY THIS IS A MATCH: English-taught second-cycle master's, 2 years, 120 ECTS. For foreign bachelor's degrees outside the exact Bologna class, the 2026/27 admission rules use a curricular audit with at least 36 CFU from specified economics, business, finance, organization, statistics, mathematics, information systems and related groups.
+The model therefore shows a positive cash buffer under the illustrative living assumption, while warning that actual consortium cities and conditions change.
 
-ACADEMIC PREREQUISITES: English B2; curriculum evaluation; English interview; 36-CFU audit where applicable.
+## 7. Fresh-graduate traps
 
-FUNDING BREAKDOWN: ER.GO is means-tested. The 2026/27 table showed up to EUR 7,171.11/year for qualifying off-site students in the displayed lowest-ISEE band. Award level varies with economic condition and student status.
+### Australia Awards Pakistan
+Do not treat this as a fit for a fresh graduate. The 2027 Pakistan route requires **five years of relevant work experience** and IELTS/TOEFL/PTE evidence.
 
-ENGLISH/IELTS: B2 is mandatory. Bologna offers its official OOPT route, so IELTS is not the only path. MOI acceptance was not explicit enough on the current programme page to claim it.
+Official:
+https://www.dfat.gov.au/people-to-people/australia-awards/participating-countries/pakistan-information-for-intake
 
-TOTAL BUDGET: ESTIMATE EUR 900/month x 12 = EUR 10,800 living. Less EUR 7,171.11 scholarship = EUR 3,628.89 before variable tuition/fees. Two-year non-tuition personal estimate = EUR 7,257.78. Italian visa proof-of-funds remains a separate issue.
+### UBD MBA
+Separate business-school material is experience-oriented. The research tracks UBD's **Master by Research — Management** instead.
 
-OFFICIAL:
-https://corsi.unibo.it/2cycle/InternationalManagement/
-https://corsi.unibo.it/2cycle/InternationalManagement/HowToApply
-https://www.er-go.it/
+### UTM MBA
+The fresh-graduate path is tied to the higher CGPA band cited by UTM; lower bands require work experience. Always audit CGPA before applying.
 
-## B. BEST FULLY FUNDED
+### KU Leuven Master of Business Economics
+The degree is academically relevant but its IELTS 7 / TOEFL requirement makes it a weak match for an MOI-only strategy.
 
-### UIBE — Master of International Business and Cross-border E-Commerce
+### HEC Paris + Eiffel
+Treat as a high-value scholarship, not a full-cost scholarship. HEC private tuition remains a major personal-finance issue.
 
-WHY THIS IS A MATCH: Two-year full-English master's covering international business, cross-border e-commerce, internet marketing, logistics, finance and digital-business subjects.
+## 8. Priority application sequence
 
-FUNDING BREAKDOWN: UIBE's Silk Road scholarship page states full coverage of tuition, accommodation, living expenses and insurance. The retrieved page did not safely publish a cash stipend amount, so it remains UNKNOWN.
+1. Passport, degree/provisional certificate, transcript, grading scale.
+2. Build a course/credit map covering management, business, economics, statistics, mathematics, finance/accounting, operations/supply chain, information systems/computing and research methods.
+3. Obtain an official MOI/English-medium letter stating that the complete degree was taught and assessed in English.
+4. Prepare CV, academic recommendations, motivation, study plan and scholarship essays.
+5. Apply through the exact admission → scholarship order on the official programme page.
+6. After award: visa, housing, insurance, travel and proof-of-funds.
+7. Recalculate the financial model using the final award letter and final university fee schedule.
 
-The High Level route publishes CNY 3,000/month and scholarship coverage including tuition, accommodation and medical expenses.
+## 9. Evidence policy
 
-WORK EXPERIENCE: No mandatory full-time experience threshold is stated in the retrieved scholarship eligibility excerpts; related education/work background is described as preferred.
+The application should never silently turn:
+- “unknown” into zero;
+- a scholarship framework into an exact programme guarantee;
+- a stipend into employment revenue;
+- a contribution into full living coverage;
+- an English-taught course into automatic MOI acceptance;
+- an eligible country into guaranteed award eligibility.
 
-ENGLISH/MOI: UIBE's broader English-master framework accepts an official English-medium certificate route. The scholarship-specific call can impose separate English evidence, so this is CONDITIONAL.
+Every promoted record should continue to show:
+- source URL;
+- verified date;
+- confidence;
+- exactness level;
+- funding category;
+- known vs estimated vs unknown money;
+- risks and remaining checks.
 
-TOTAL BUDGET: ESTIMATE planning envelope CNY 54,000/year. For High Level, CNY 36,000/year stipend implies an ESTIMATE CNY 18,000 living gap before visa/setup, with accommodation separately covered under the scholarship framework.
+## 10. Primary-source index
 
-OFFICIAL:
-https://sie.uibe.edu.cn/en/AppEnr/ScAp/Ot/66b78488a4ed45cba0cb5a9ddbf35952.htm
-https://sie.uibe.edu.cn/en/Newsss/NotAnn/015d323bb31249e280505021cd4ca20c.htm
+Stipendium Hungaricum  
+https://stipendiumhungaricum.hu/about/  
+https://stipendiumhungaricum.hu/partners/
 
-### UBD — Master by Research in Management
+University of Debrecen International Economy and Business  
+https://edu.unideb.hu/p/international-economy-and-business-msc
 
-WHY THIS IS A MATCH: UBD graduate entry information allows research master's study for a bachelor's Upper Second Class Honours in a related field such as management, economics or finance and expects independent research ability.
+Corvinus MSc Management  
+https://www.uni-corvinus.hu/post/landing-page/masters/msc-in-management/?lang=en
 
-FUNDING: UBD's international scholarship information describes tuition plus accommodation, books, food, personal spending, complementary medical treatment and travel support. Exact current cash rates were not explicit enough to publish.
+Türkiye Scholarships  
+https://turkiyeburslari.gov.tr/fulltimeprograms
 
-RISK: Current English/MOI requirements were not explicit in the retrieved UBD evidence. Confirm before building an MOI-only application.
+Koç MSc International Management  
+https://apply.ku.edu.tr/en_GB/courses/course/90-msc-ko-mim--master-science-international-management--nonthesis/
 
-OFFICIAL:
-https://ubd.edu.bn/admissions/graduate/
-https://ubd.edu.bn/admissions/scholarships/
+Kobe KIMAP  
+https://kimap.b.kobe-u.ac.jp/admission_and_finance
 
-## C. BEST TUITION + SCHOLARSHIP
+MEXT  
+https://studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/
 
-### University of Malaya — Master of Management + MIS
+GKS  
+https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1
 
-MIS explicitly accepts an English-medium declaration from the previous institution. It also provides RM 1,500/month and pays tuition for the sponsored study period.
+Taiwan Scholarship / Study in Taiwan  
+https://www.studyintaiwan.org/
 
-Important distinction: scholarship-level MOI acceptance does not automatically override UM's own programme-level English rule. This route is therefore CONDITIONAL for an MOI-only strategy.
+Fulbright Pakistan / USEFP  
+https://www.usefp.org/scholarships/fulbright-degree.cfm
 
-The current UM page cites RM 60,100 full-time tuition excluding 6% SST.
+Knight-Hennessy  
+https://knight-hennessy.stanford.edu/program-overview/funding
 
-ESTIMATE: RM 2,000/month living = RM 24,000/year. Less RM 18,000 stipend = RM 6,000 annual living gap before visa/setup/tax.
+Stanford MS&E  
+https://msande.stanford.edu/academics-admissions/graduate/ms-program/ms-degree
 
-OFFICIAL:
-https://study.um.edu.my/master-of-management
-https://biasiswa.mohe.gov.my/INTER/
+Commonwealth Scholarships  
+https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/
 
-### UTM MBA + MIS
-
-The cited current UTM route allows a fresh-graduate application when CGPA is above 3.50. Lower CGPA bands trigger work-experience requirements. MIS provides tuition support plus RM 1,500/month, but UTM's own English requirement remains a separate check.
-
-OFFICIAL:
-https://business.utm.my/mba/
-https://biasiswa.mohe.gov.my/INTER/
-
-## D. LOW-COST BACKUP
-
-### FAB Bucharest — Administrarea afacerilor mici si mijlocii
-
-Official Study in Romania listing: English-taught, 2 years, 120 ECTS, EUR 2,100/year for non-EU applicants.
-
-Official Study in Romania living guidance: approximately EUR 600/month.
-
-ESTIMATE total: EUR 2,100 tuition + EUR 7,200 living = EUR 9,300/year. Two-year estimate EUR 18,600.
-
-No scholarship is attached in this row.
-
-OFFICIAL:
-https://studyinromania.gov.ro/program/8870
-https://studyinromania.gov.ro/faq-costs
-
-## Academic fit audit
-
-For a typical BS Management Science transcript, verify:
-- management and business foundations
-- economics
-- statistics
-- mathematics/calculus
-- accounting/finance
-- operations and supply chain
-- information systems/computing
-- data analysis
-- research methods
-
-Bologna has the most explicit subject-credit audit. UTM is CGPA-sensitive for fresh graduates. UBD research management is grade-class and proposal sensitive. UIBE is the cleanest subject-matter alignment.
-
-## Proof of funds and hidden costs
-
-Always separate scholarship coverage from immigration requirements.
-
-Potential hidden/extra costs:
-- passport renewal
-- certified copies and translations
-- notarization/legalization when explicitly required
-- HEC or university verification only when the destination asks for it
-- visa/residence fees
-- initial accommodation deposit
-- local transport and utilities
-- insurance top-ups
-- programme-specific fieldwork, thesis or research costs
-
-Do not invent a Pakistan-specific legalization requirement. Confirm the current destination visa checklist.
-
-## DO NOT WASTE TIME ON
-
-Romania MFA for an English-only master's: the 2026/27 government scholarship limits Bachelor/Master choices to Romanian-taught study.
-
-UBD MBA: the business-school route requires management work experience; use the research-management path for a fresh graduate.
-
-UTM MBA without a CGPA audit: the fresh-graduate path is above the cited CGPA threshold; lower bands require experience.
-
-UIBE IMBA: use academic master's routes such as MIBCE rather than an experience-oriented MBA route.
-
-Any "full scholarship" headline that only discounts tuition: this dashboard does not label it fully funded without evidence of core cost categories.
-
-## ALTERNATIVES IF MOI IS NOT ACCEPTED
-
-UIBE: use the university's accepted English-test route if the scholarship call requires it.
-
-Bologna: use the university OOPT route for B2.
-
-Malaysia: MIS's MOI route may still be overridden by programme-level university English requirements, so plan for an approved test if the university does not waive it.
-
-## APPLICATION ROADMAP
-
-FIRST, 1–3 days: passport, degree, transcript, grading scale, single folder.
-
-SECOND, 3–7 days: course-by-course audit of management, business, economics, statistics, mathematics, finance, operations, IS/computing and research methods.
-
-THIRD, 3–10 days: request an official English-medium/MOI letter stating the complete degree was taught and assessed in English.
-
-FOURTH, 1–2 weeks: CV, two academic recommendations, motivation statement, study plan, research proposal where needed and reusable scholarship essays.
-
-AFTERWARD: follow each programme's exact admission-to-scholarship sequence, then visa, proof of funds, accommodation, insurance and travel.
-
-## DOCUMENT CHECKLIST
-
-Immediately: passport; degree/provisional certificate; full transcript; grading scale; MOI; CV; recommendation contacts.
-
-University: degree; transcript; English proof; motivation/study plan; recommendations; research proposal where required; interview/entrance evidence.
-
-Scholarship: separate application; economic/need evidence; admission letter where required; scholarship essays; country-specific declarations.
-
-After admission: award letter; accommodation evidence; health insurance; translations/legalization; registration forms.
-
-Visa/residence: passport; visa application; proof of funds where applicable; admission + award letters; medical/insurance; certified translations/legalization.
-
-## DEADLINE CALENDAR
-
-| Route | Status | Latest verified date |
-|---|---|---|
-| Stipendium Hungaricum 2026/27 | CLOSED | 2026-01-15 |
-| UBD Government scholarship route | CLOSED | 2026-02-15 |
-| Türkiye Scholarships 2026 | CLOSED | 2026-02-20 |
-| GOI-IES 2026 | CLOSED | 2026-03-12 |
-| Romania MFA 2026/27 | CLOSED | 2026-03-31 |
-| Malaysia MIS 2026/27 | CLOSED | Exact closing date not safely recovered |
-| Bologna International Management 2026/27 | CLOSED | Exact closing date not safely recovered |
-| UIBE next scholarship cycle | APPLICATION WINDOW NOT YET ANNOUNCED | Unknown |
-
-## Funding frameworks checked but not promoted to exact-match rows
-
-Türkiye Scholarships: official 2026 cycle 2026-01-10 to 2026-02-20; master's stipend TRY 9,500/month; tuition, accommodation, health insurance, one-year Turkish language support and airfare are described. Exact current English Management pairing was not retained.
-
-Erasmus Mundus Joint Masters: official Erasmus+ guidance supports scholarship values up to EUR 1,400/month for up to 24 months. Exact management-related consortium must be selected from the current catalogue.
-
-Stipendium Hungaricum: 2026/27 application deadline 2026-01-15. Broad master's inventory; exact Management Science + explicit MOI pairing was not recovered at sufficient confidence.
-
-MEXT: official Japan scholarship information supports tuition exemption, a monthly scholarship in published research-student bands and airfare subject to the applicable guidelines. Exact management programme pairing remains required.
-
-GKS: the Korean government published the 2026 GKS-G framework with Embassy Track and University Track. Exact English management programme + MOI route was not sufficiently verified.
-
-GOI-IES: 2026 call closed 2026-03-12. Scholarship is EUR 10,000 for one year and host institution gives a full fee waiver for that year.
-
-## Financial risk
-
-LOW: core tuition + accommodation + meaningful living support covered.
-
-MEDIUM: large award but material personal contribution remains.
-
-HIGH: tuition/funding materially uncertain.
-
-## Confidence
-
-HIGH: exact programme + current institutional rule + scholarship evidence.
-
-MEDIUM: one material detail such as language, cash rate or current deadline remains unresolved.
-
-## FX note
-
-The dashboard uses ESTIMATE planning FX dated 2026-09-25, not official live market quotes:
-EUR 1 ≈ PKR 330
-CNY 1 ≈ PKR 39.5
-BND 1 ≈ PKR 218
-MYR 1 ≈ PKR 65
-RON 1 ≈ PKR 65
-TRY 1 ≈ PKR 6.5
-GBP 1 ≈ PKR 380
-USD 1 ≈ PKR 280
-
-Refresh before committing money.
-
-## Official evidence index
-
-Türkiye Scholarships:
-https://www.turkiyeburslari.gov.tr/fulltimeprograms
-https://www.turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2026-applications-75
-
-Erasmus Mundus:
-https://erasmus-plus.ec.europa.eu/programme-guide/part-b/cooperation-among-organisations-and-institutions/erasmus-mundus-joint-masters
-
-Stipendium Hungaricum:
-https://stipendiumhungaricum.hu/apply/
-
-MEXT:
-https://www.studyinjapan.go.jp/en/smap-stopj-applications/scholarships/
-
-GKS:
-https://www.studyinkorea.go.kr/en/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&nttId=4420
-
-GOI-IES:
+GOI-IES  
 https://hea.ie/policy/internationalisation/goi-ies/
 
-Romania MFA:
-https://studyinromania.gov.ro/mfa_2026-2027
+HEC Paris MIM financing  
+https://www.hec.edu/en/master-s-programs/master-management/fees-and-financing
 
-Romania programme:
-https://studyinromania.gov.ro/program/8870
+France Excellence Eiffel  
+https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program
 
-Malaysia MIS:
-https://biasiswa.mohe.gov.my/INTER/
+Master Mind  
+https://www.studyinflanders.be/scholarships/master-mind-scholarships
 
-The verified set is intentionally smaller than the requested 15–30. The frontend is structured to load more records later without rewriting the UI once their current primary-source evidence is verified.
+KU Leuven Master of Business Economics  
+https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_51017073
+
+Erasmus Mundus  
+https://erasmus-plus.ec.europa.eu/opportunities/organisations/cooperation-among-organisations-and-institutions/erasmus-mundus-joint-masters
