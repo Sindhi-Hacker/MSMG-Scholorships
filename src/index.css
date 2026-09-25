@@ -34,3 +34,10 @@ html{scroll-behavior:smooth}body{margin:0;min-width:320px;font-family:Inter,ui-s
 .filter-search-icon{@apply pointer-events-none absolute left-3 top-1/2 z-10 -translate-y-1/2 text-slate-400}
 .filter-label{@apply mb-1.5 block text-[10px] font-black uppercase tracking-[.14em] text-slate-400}
 .filter-note{@apply flex items-center rounded-xl border border-dashed border-slate-200 px-3 text-[11px] leading-5 text-slate-400 dark:border-slate-800}
+\n.finance-kpi{@apply rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900}
+.finance-kpi-label{@apply text-[10px] font-black uppercase tracking-[.15em] text-slate-400}
+.finance-table-row{@apply grid grid-cols-[minmax(150px,1.2fr)_110px_115px_minmax(90px,.7fr)] items-center gap-3 border-b border-slate-100 px-4 py-3 text-xs last:border-0 dark:border-slate-800}
+.finance-pill{@apply inline-flex rounded-full px-2 py-1 text-[10px] font-bold}
+.finance-pill-known{@apply bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300}
+.finance-pill-estimate{@apply bg-amber-50 text-amber-700 dark:bg-amber-400/10 dark:text-amber-300}
+.finance-pill-unknown{@apply bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-300}
