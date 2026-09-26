@@ -359,16 +359,69 @@ def funding(text: str, tuition_amount: float | None, tuition_currency: str | Non
     lower = text.lower()
     full = ("fully funded" in lower and ("tuition" in lower or "fees" in lower) and
             ("stipend" in lower or "living" in lower or "maintenance" in lower))
-    tuition_free = "tuition-free" in lower or "tuition free" in lower or "tuition waiver" in lower or "full tuition" in lower and "waiver" in lower
+    tuition_free = (
+        "tuition-free" in lower or "tuition free" in lower or "tuition waiver" in lower
+        or ("full tuition" in lower and "waiver" in lower)
+    )
+    discount = "fee discount" in lower or "tuition discount" in lower or "fee waiver" in lower or "tuition reduction" in lower
     if full:
         return "FULLY FUNDED", True, "Official evidence describes tuition/fee support together with living or stipend support."
     if tuition_free:
         return "TUITION-FREE / WAIVER", False, "Official evidence describes tuition-free or full tuition support; living cash is not assumed."
+    if discount:
+        return "PARTIAL TUITION SCHOLARSHIP", False, "Official evidence describes a fee reduction/waiver rather than cash paid to the student."
     if stipend_amount:
         return "TUITION + STIPEND / GRANT", False, "A quantified scholarship amount was recovered; tuition coverage is programme-specific."
-    if "scholarship" in lower and ("fee discount" in lower or "tuition discount" in lower or "fee waiver" in lower):
-        return "PARTIAL TUITION SCHOLARSHIP", False, "Official evidence describes a fee reduction rather than a full funding package."
     return "SCHOLARSHIP / FUNDING", False, "Funding coverage requires programme-specific verification."
+
+def extract_country(text: str) -> str:
+    lower = text.lower()
+    countries = [
+        ("United Kingdom", [r"\bunited kingdom\b", r"\buk\b", r"\bbritain\b", r"\bengland\b"]),
+        ("United States", [r"\bunited states\b", r"\busa\b", r"\bus\b"]),
+        ("Canada", [r"\bcanada\b"]),
+        ("Australia", [r"\baustralia\b"]),
+        ("New Zealand", [r"\bnew zealand\b"]),
+        ("Ireland", [r"\bireland\b"]),
+        ("Germany", [r"\bgermany\b"]),
+        ("France", [r"\bfrance\b"]),
+        ("Italy", [r"\bitaly\b"]),
+        ("Hungary", [r"\bhungary\b"]),
+        ("Türkiye", [r"\btürkiye\b", r"\bturkey\b"]),
+        ("Japan", [r"\bjapan\b"]),
+        ("South Korea", [r"\bsouth korea\b", r"\brepublic of korea\b"]),
+        ("China", [r"\bchina\b", r"\bprc\b"]),
+        ("Taiwan", [r"\btaiwan\b"]),
+        ("Malaysia", [r"\bmalaysia\b"]),
+        ("Brunei", [r"\bbrunei\b"]),
+        ("Romania", [r"\bromania\b"]),
+        ("Russia", [r"\brussia\b", r"\brussian federation\b"]),
+        ("Belgium", [r"\bbelgium\b", r"\bflanders\b"]),
+        ("Netherlands", [r"\bnetherlands\b", r"\bholland\b"]),
+        ("Sweden", [r"\bsweden\b"]),
+        ("Finland", [r"\bfinland\b"]),
+        ("Denmark", [r"\bdenmark\b"]),
+        ("Norway", [r"\bnorway\b"]),
+        ("Austria", [r"\baustria\b"]),
+        ("Poland", [r"\bpoland\b"]),
+        ("Czechia", [r"\bczechia\b", r"\bczech republic\b"]),
+        ("Portugal", [r"\bportugal\b"]),
+        ("Spain", [r"\bspain\b"]),
+        ("Switzerland", [r"\bswitzerland\b"]),
+        ("Estonia", [r"\bestonia\b"]),
+        ("Latvia", [r"\blatvia\b"]),
+        ("Lithuania", [r"\blithuania\b"]),
+        ("UAE", [r"\bunited arab emirates\b", r"\buae\b"]),
+        ("Qatar", [r"\bqatar\b"]),
+        ("Saudi Arabia", [r"\bsaudi arabia\b"]),
+    ]
+    for country, patterns in countries:
+        if any(re.search(p, lower) for p in patterns):
+            return country
+    return "International"
+
+def evidence_country(title: str, text: str) -> str:
+    return extract_country(title + " " + text[:24000])
 
 def score_record(title: str, official_text: str, work: str, english: str, moi: str, deadline: date | None, full: bool) -> int:
     score = 45
@@ -461,6 +514,7 @@ def build_candidate(article_url: str, article_html: str, article_text: str, titl
     program = extract_program(title, combined)
     field_terms = [x for x in MANAGEMENT_TERMS if x in combined.lower()]
     field = " / ".join(dict.fromkeys(term.title() for term in field_terms[:6])) or "Management / Business"
+    country = evidence_country(title, combined)
     status = "OPEN NOW"
     if deadline:
         status = "CLOSING SOON" if (deadline - TODAY).days <= 21 else "OPEN NOW"
@@ -513,8 +567,8 @@ def build_candidate(article_url: str, article_html: str, article_text: str, titl
         "program": program,
         "degreeType": "Master's",
         "field": field,
-        "country": "Unknown",
-        "city": "Unknown",
+        "country": country,
+        "city": "Multiple / verify programme location",
         "region": "International",
         "scholarship": title,
         "provider": "Verified official source",
@@ -594,13 +648,28 @@ def build_candidate(article_url: str, article_html: str, article_text: str, titl
         finance["directFunding"].append({"label": "Tuition / mandatory fees", "amount": 0, "currency": currency, "status": "covered"})
     elif tuition_amount:
         finance["costs"].append({"label": "Tuition / fees", "amount": tuition_amount, "currency": tuition_currency or currency, "frequency": "annual", "payer": "student", "status": "known"})
+    discount = re.search(r"fee discount|tuition discount|fee waiver|tuition reduction", combined, re.I)
     if stipend_amount:
-        finance["cashFunding"].append({"label": "Scholarship / stipend", "amount": stipend_amount, "currency": stipend_currency or currency, "frequency": "total", "status": "known"})
+        if discount:
+            finance["directFunding"].append({"label": "Tuition fee discount / waiver", "amount": stipend_amount, "currency": stipend_currency or currency, "status": "known"})
+        else:
+            finance["cashFunding"].append({"label": "Scholarship / stipend", "amount": stipend_amount, "currency": stipend_currency or currency, "frequency": "total", "status": "known"})
     return record, finance
 
 def is_live(record: dict) -> bool:
     if record.get("status") in {"CLOSED", "NOT APPLICABLE", "APPLICATION WINDOW NOT YET ANNOUNCED"}:
         return False
+    # Unknown-deadline records are retained only for a short verification window;
+    # this prevents a stale scholarship from living forever.
+    if not any(record.get(k) for k in ("deadline", "scholarshipDeadline", "admissionDeadline")):
+        verified = record.get("verification", {}).get("lastVerified")
+        if verified:
+            try:
+                checked = date.fromisoformat(verified)
+                if (TODAY - checked).days > 2:
+                    return False
+            except ValueError:
+                pass
     for field in ("deadline", "scholarshipDeadline", "admissionDeadline"):
         raw = record.get(field)
         if raw:
