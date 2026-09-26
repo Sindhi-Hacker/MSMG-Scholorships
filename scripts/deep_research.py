@@ -496,6 +496,17 @@ def build_candidate(article_url: str, article_html: str, article_text: str, titl
     deadline = deadline_from_text(combined + " " + article_text[:20000])
     if deadline and deadline < TODAY:
         return None
+    closed_signal = re.search(
+        r"(applications? (?:are )?closed|application window (?:is )?closed|no longer accepting applications|"
+        r"applications? (?:have )?closed|deadline has passed|registration (?:is )?closed)",
+        combined, re.I
+    )
+    open_signal = re.search(
+        r"(applications? (?:are )?open|apply now|registration (?:is )?open|applications? (?:are )?being accepted)",
+        combined, re.I
+    )
+    if closed_signal and not open_signal and not deadline:
+        return None
 
     work, work_ctx = classify_work(combined)
     if work == "NO":
@@ -771,6 +782,22 @@ def main() -> int:
         "opportunities": live,
         "financeById": finance,
     }
+
+    previous_core = {
+        "schemaVersion": previous.get("schemaVersion"),
+        "profile": previous.get("profile"),
+        "opportunities": previous.get("opportunities", []),
+        "financeById": previous.get("financeById", {}),
+    }
+    fresh_core = {
+        "schemaVersion": payload["schemaVersion"],
+        "profile": payload["profile"],
+        "opportunities": live,
+        "financeById": finance,
+    }
+    if previous_core == fresh_core:
+        print(f"No data change; retained {len(live)} live records.")
+        return 0
 
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Published {len(live)} live verified/retained opportunities; fresh official: {len(fresh_verified)}")
