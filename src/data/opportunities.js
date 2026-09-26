@@ -1,4 +1,5 @@
 import {additionalOpportunities,additionalFinanceById} from "./globalOpportunities";
+import autoScholarships from "./autoScholarships.json";
 export const FX={EUR:315.08,CNY:41.28,BND:218,MYR:67.82,RON:65,TRY:5.66,GBP:366.14,USD:277.08,JPY:1.7434,HUF:0.8648,KRW:0.197,TWD:8.7,IDR:0.01547,NZD:157.14};
 export const FX_METADATA={source:"XE mid-market / PKR market cross-check",date:"2026-09-25",note:"Planning estimates only; destination banks, card networks and remittance spreads can differ."};
 export const VERIFIED_ON="2026-09-25";
@@ -13,8 +14,20 @@ const baseOpportunities=[
 {id:"romania-fab-smm",rank:7,score:62,confidence:"MEDIUM",university:"Faculty of Administration and Business, Bucharest",program:"Administrarea afacerilor mici şi mijlocii",degreeType:"Master / MSc",field:"Business Administration / Entrepreneurship / Management",country:"Romania",city:"Bucharest",region:"Europe",scholarship:"None attached",provider:"University / self-funded",providerType:"University",fundingType:"LOW-COST BACKUP",fit:"CLOSE",fullyFunded:false,needBased:"UNKNOWN",freshGraduateEligible:"YES",noWorkExperience:"YES",ieltsRequired:"UNKNOWN",moiAccepted:"UNKNOWN",englishAlternative:"English-taught programme; exact proof route must be confirmed with the faculty.",tuitionDisplay:"EUR 2,100/year for non-EU applicants",tuitionAmount:2100,tuitionCurrency:"EUR",stipendDisplay:"None",stipendAmount:0,stipendCurrency:"EUR",duration:"2 years / 120 ECTS",annualLiving:{amount:7200,currency:"EUR",note:"Official Study in Romania guidance: approximately EUR 600/month."},annualPersonal:{amount:9300,currency:"EUR",note:"ESTIMATE = EUR 2,100 tuition + EUR 7,200 living."},fullPersonal:{amount:18600,currency:"EUR"},proof:"CONDITIONAL",proofNote:"Visa proof-of-funds is a separate immigration question.",status:"NOT APPLICABLE",deadline:null,scholarshipDeadline:null,admissionDeadline:null,academic:["Bachelor's/equivalent; final methodology is institution-specific"],transcript:["Business/Management","Economics","Entrepreneurship","Quantitative methods"],documents:["Passport","Degree","Transcript","English evidence to confirm","University application documents"],risks:["No scholarship","Exact intake deadline not recovered","English-proof rule not verified"],programUrl:"https://studyinromania.gov.ro/program/8870",scholarshipUrl:null}
 ];
 
-export const opportunities=[...baseOpportunities,...additionalOpportunities];
-export const financeById={...additionalFinanceById};
+const allTrackedOpportunities=[...baseOpportunities,...additionalOpportunities,...(autoScholarships.opportunities||[])];
+const isCurrentOpportunity=(o)=>{
+  if(["CLOSED","NOT APPLICABLE","APPLICATION WINDOW NOT YET ANNOUNCED"].includes(o.status)) return false;
+  const today=Date.now();
+  for(const key of ["deadline","scholarshipDeadline","admissionDeadline"]){
+    if(o[key]){
+      const d=new Date(o[key]+"T23:59:59");
+      if(!Number.isNaN(d.getTime()) && d.getTime()<today) return false;
+    }
+  }
+  return true;
+};
+export const opportunities=allTrackedOpportunities.filter(isCurrentOpportunity);
+export const financeById={...additionalFinanceById,...(autoScholarships.financeById||{})};
 
 export const coverage=[
 ["Stipendium Hungaricum","EXACT PROGRAMMES ADDED","Corvinus MSc Management and University of Debrecen International Economy & Business; Pakistan is an eligible sending partner."],
