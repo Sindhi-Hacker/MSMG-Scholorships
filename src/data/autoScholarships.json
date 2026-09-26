@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 2,
+  "profile": {
+    "nationality": "Pakistan",
+    "degree": "BS Management Sciences",
+    "targetLevel": "Master's",
+    "workExperience": "NONE",
+    "englishPreference": ["MOI", "IELTS alternative", "IELTS"],
+    "priorMasters": "NONE"
+  },
+  "generatedAt": "2026-09-26T22:35:00+05:00",
+  "discovery": {
+    "primary": "https://nspscholarships.com/",
+    "policy": "NSP is discovery-only; official sources are required for publication.",
+    "officialVerification": true
+  },
+  "opportunities": [
+    {
+      "id": "auto-open-doors-business-management-2027",
+      "rank": 1,
+      "score": 97,
+      "confidence": "HIGH",
+      "university": "Open Doors / participating Russian universities",
+      "program": "Master's track — Business and Management",
+      "degreeType": "Master's",
+      "field": "Management / Business / Economics / Marketing / Entrepreneurship",
+      "country": "Russia",
+      "city": "Multiple participating universities",
+      "region": "Europe / Eurasia",
+      "scholarship": "Open Doors Russian Scholarship Project",
+      "provider": "Global Universities Association / Russian Scholarship Project",
+      "providerType": "Government / national scholarship route",
+      "fundingType": "TUITION-FREE SCHOLARSHIP",
+      "fit": "EXACT/CLOSE",
+      "fullyFunded": false,
+      "needBased": "NO",
+      "freshGraduateEligible": "YES",
+      "noWorkExperience": "YES",
+      "ieltsRequired": "CONDITIONAL",
+      "moiAccepted": "CONDITIONAL",
+      "englishAlternative": "The official rules state that proficiency in the chosen language of instruction is confirmed or assessed by the admitting university. The competition itself is officially conducted in Russian and English.",
+      "tuitionDisplay": "Tuition-free study under the Russian Government quota for winners/runners-up, subject to the official rules and participating programmes.",
+      "tuitionAmount": 0,
+      "tuitionCurrency": "USD",
+      "stipendDisplay": "No English-medium cash stipend safely claimed from the current official Open Doors rules.",
+      "stipendAmount": 0,
+      "stipendCurrency": "USD",
+      "duration": "Programme-specific Master's degree",
+      "annualLiving": {
+        "amount": 0,
+        "currency": "USD",
+        "note": "Not fixed by the scholarship record; city and language of programme affect living support."
+      },
+      "annualPersonal": {
+        "amount": 0,
+        "currency": "USD",
+        "note": "Residual personal cost depends on destination university, city, visa and whether Russian-language government grant support applies."
+      },
+      "fullPersonal": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "proof": "CONDITIONAL",
+      "proofNote": "Final visa/immigration financial evidence depends on the chosen Russian university and route; verify after the university placement.",
+      "status": "OPEN NOW",
+      "deadline": "2026-11-01",
+      "scholarshipDeadline": "2026-11-01",
+      "admissionDeadline": null,
+      "academic": [
+        "Foreign citizen/stateless person",
+        "Master's track requires at least a Bachelor's-level qualification",
+        "No Specialist or Master's degree for the Master's track",
+        "Age 20–33 at registration opening under the current rules"
+      ],
+      "transcript": [
+        "Management",
+        "Business",
+        "Economics",
+        "Marketing",
+        "Entrepreneurship",
+        "Business Analytics",
+        "Strategy"
+      ],
+      "documents": [
+        "Passport / identity document",
+        "Bachelor's degree or proof of completion",
+        "Portfolio",
+        "Motivation letter",
+        "Competition submissions"
+      ],
+      "risks": [
+        "Final university admission and language confirmation remain institution-specific",
+        "Russian-language grant support has additional conditions",
+        "Highly competitive national Olympiad"
+      ],
+      "programUrl": "https://od.globaluni.ru/subject/48/ma",
+      "scholarshipUrl": "https://od.globaluni.ru/rules",
+      "sources": [
+        {
+          "title": "Open Doors official rules",
+          "url": "https://od.globaluni.ru/rules",
+          "type": "official"
+        },
+        {
+          "title": "Business and Management — Master's track",
+          "url": "https://od.globaluni.ru/subject/48/ma",
+          "type": "official"
+        }
+      ],
+      "verification": {
+        "status": "VERIFIED OFFICIAL",
+        "officialSourceCount": 2,
+        "discoverySource": "NSP Scholarships",
+        "lastVerified": "2026-09-26"
+      },
+      "requirements": {
+        "academic": "At least a Bachelor's-level qualification; no prior Specialist/Master's degree for the Master's track; age 20–33 under current rules.",
+        "english": "Language proficiency is confirmed/assessed by the admitting university.",
+        "workExperience": "No professional experience requirement is stated in the current Open Doors Master's eligibility rule.",
+        "nationality": "Foreign citizens and stateless persons are eligible.",
+        "financialProof": "Final immigration evidence depends on the university and visa route."
+      }
+    },
+    {
+      "id": "auto-cardiff-vc-business-management-2027",
+      "rank": 2,
+      "score": 88,
+      "confidence": "HIGH",
+      "university": "Cardiff University",
+      "program": "MSc Business Management — January 2027",
+      "degreeType": "MSc",
+      "field": "Business Management",
+      "country": "United Kingdom",
+      "city": "Cardiff",
+      "region": "Europe",
+      "scholarship": "Vice-Chancellor's International Scholarship",
+      "provider": "Cardiff University",
+      "providerType": "University",
+      "fundingType": "PARTIAL TUITION SCHOLARSHIP",
+      "fit": "EXACT/CLOSE",
+      "fullyFunded": false,
+      "needBased": "NO",
+      "freshGraduateEligible": "YES",
+      "noWorkExperience": "YES",
+      "ieltsRequired": "CONDITIONAL",
+      "moiAccepted": "CONDITIONAL",
+      "englishAlternative": "Meet the programme's published English condition or an accepted alternative/waiver under Cardiff University rules.",
+      "tuitionDisplay": "Programme tuition applies; scholarship is a tuition-fee discount.",
+      "tuitionAmount": null,
+      "tuitionCurrency": "GBP",
+      "stipendDisplay": "No cash stipend; Pakistan-domiciled postgraduate award is £6,000 for the cited January 2027 intake.",
+      "stipendAmount": 6000,
+      "stipendCurrency": "GBP",
+      "duration": "12 months for the MSc route",
+      "annualLiving": {
+        "amount": 0,
+        "currency": "GBP",
+        "note": "Planning estimate not stored until a current official living-cost figure is verified."
+      },
+      "annualPersonal": {
+        "amount": 0,
+        "currency": "GBP",
+        "note": "Residual cost is tuition after scholarship plus living/visa/setup."
+      },
+      "fullPersonal": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "proof": "CONDITIONAL",
+      "proofNote": "UK Student visa financial requirements are separate from scholarship eligibility; verify current UKVI rules for the application date.",
+      "status": "OPEN NOW",
+      "deadline": "2026-12-04",
+      "scholarshipDeadline": "2026-12-04",
+      "admissionDeadline": "2026-12-04",
+      "academic": [
+        "Bachelor's degree meeting the published programme entry standard",
+        "International/overseas fee status",
+        "Full-time campus-based postgraduate route for scholarship eligibility"
+      ],
+      "transcript": [
+        "Business",
+        "Management",
+        "Economics",
+        "Accounting/Finance",
+        "Statistics/Quantitative subjects"
+      ],
+      "documents": [
+        "Passport",
+        "Degree certificate",
+        "Transcript",
+        "CV",
+        "Personal statement / application materials",
+        "English-language evidence where required"
+      ],
+      "risks": [
+        "Scholarship is a tuition discount, not full funding",
+        "Offer/deposit deadlines are part of scholarship eligibility",
+        "Programme admission requirements remain controlling"
+      ],
+      "programUrl": "https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/business-management-msc",
+      "scholarshipUrl": "https://www.cardiff.ac.uk/study/international/funding-and-fees/international-scholarships/vc-international-scholarship",
+      "sources": [
+        {
+          "title": "Cardiff Vice-Chancellor's International Scholarship",
+          "url": "https://www.cardiff.ac.uk/study/international/funding-and-fees/international-scholarships/vc-international-scholarship",
+          "type": "official"
+        },
+        {
+          "title": "January 2027 eligible postgraduate courses",
+          "url": "https://www.cardiff.ac.uk/documents/2873144-vice-chancellors-international-scholarship-eligible-postgraduate-courses-january-2027",
+          "type": "official"
+        }
+      ],
+      "verification": {
+        "status": "VERIFIED OFFICIAL",
+        "officialSourceCount": 2,
+        "discoverySource": "NSP Scholarships",
+        "lastVerified": "2026-09-26"
+      },
+      "requirements": {
+        "academic": "Meet the exact published entry criteria for the selected MSc.",
+        "english": "Meet Cardiff's programme English condition or an accepted alternative/waiver.",
+        "workExperience": "No mandatory professional work-experience requirement is stated for the MSc Business Management route.",
+        "nationality": "Pakistan is explicitly listed for the £6,000 postgraduate scholarship tier.",
+        "financialProof": "Separate UK Student visa financial evidence may apply."
+      }
+    }
+  ],
+  "financeById": {
+    "auto-open-doors-business-management-2027": {
+      "periodMonths": 12,
+      "currency": "USD",
+      "costs": [],
+      "cashFunding": [],
+      "directFunding": [
+        {
+          "label": "Tuition under quota",
+          "amount": 0,
+          "currency": "USD",
+          "status": "covered"
+        }
+      ],
+      "notes": [
+        "Open Doors tuition-free status is based on the official Government quota rules for winners/runners-up.",
+        "Do not model English-medium living cash as guaranteed unless the selected university confirms it."
+      ]
+    },
+    "auto-cardiff-vc-business-management-2027": {
+      "periodMonths": 12,
+      "currency": "GBP",
+      "costs": [],
+      "cashFunding": [
+        {
+          "label": "Vice-Chancellor tuition discount for Pakistan domicile",
+          "amount": 6000,
+          "currency": "GBP",
+          "frequency": "total",
+          "status": "known"
+        }
+      ],
+      "directFunding": [],
+      "notes": [
+        "The £6,000 award is a tuition-fee discount, not cash paid to the student."
+      ]
+    }
+  }
+}
