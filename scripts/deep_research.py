@@ -188,7 +188,7 @@ def candidate_relevance(title: str, text: str) -> int:
             score += 10
         elif term in t:
             score += 2
-    if re.search(r"\b(master|msc|m\.sc|mba|postgraduate|graduate)\b", title, re.I):
+    if re.search(r"\b(master|msc|m\.sc|mba|postgraduate|graduate)\b", title + " " + text[:20000], re.I):
         score += 15
     if "phd" in title.lower() or "doctoral" in title.lower():
         score -= 30
@@ -485,7 +485,8 @@ def build_candidate(article_url: str, article_html: str, article_text: str, titl
             continue
         time.sleep(0.25)
 
-    if not source_pages:
+    if len(source_pages) < 2:
+        # Prefer two independent official evidence pages for publication.
         return None
 
     combined = "\n\n".join(t[:18000] for _, t in source_pages)
